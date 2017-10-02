@@ -42,4 +42,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Enigma Public for releasing the data
 * The almighty Stack Overflow community since the code in map/ is a modification of
     https://stackoverflow.com/questions/39742305/how-to-use-basemap-python-to-plot-us-with-50-states
-
+  and for many other questions I've answered there while working on this project.
