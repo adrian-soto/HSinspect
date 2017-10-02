@@ -1,3 +1,6 @@
+# Functions to analyze and transform OSHA data
+
+
 from numpy import isnan
 
 def fopi(df, key):
