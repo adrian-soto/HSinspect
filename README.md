@@ -1,7 +1,9 @@
 # HSinspect
 
 Predictive model for health and safety inspections in the USA. It is based in data from the Occupational Health and Safety Administration, curated by Enigma public
+
   https://public.enigma.com/browse/occupational-safety-and-health-administration-osha/98fa73e5-f974-4c46-8419-8010543c3cd2
+  
 The model is based on the random forest algorithm and it predicts both the outcome of a violation and its probability.
 
 ## Getting Started
