@@ -1,23 +1,16 @@
-# Unseful functions
+# Useful functions for feature transformations
 
-
-def states_dummy():
-    states = [
-        "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA", 
-        "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", 
-        "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", 
-        "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", 
-        "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY",
-        "AS", "GU", "MP", "PR","VI", "UM", "FM", "MH", "PW"]
-
-    return
-
-    
 
 def sic_division(sic_code):
-    #
-    # Given a 4-digit SIC code, return division abbreviation
-    # 
+    '''
+    Given a 4-digit SIC code, return industry division abbreviation
+    
+    Parameters:
+      - sic_code, int or str: 4-digit SIC code
+
+    Returns
+      - division, str
+    ''' 
     
     # First, ensure sic_code is integer
     if (not isinstance( sic_code, int )):
